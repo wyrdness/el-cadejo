@@ -1,0 +1,356 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/el-cadejo",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "el-cadejo",
+    "name": "El Cadejo",
+    "aliases": [
+      {
+        "name": "Cadejos",
+        "language": "Spanish",
+        "region": "Central America"
+      },
+      {
+        "name": "El Cadejo Blanco",
+        "language": "Spanish",
+        "meaning": "The White Cadejo (protector)"
+      },
+      {
+        "name": "El Cadejo Negro",
+        "language": "Spanish",
+        "meaning": "The Black Cadejo (evil)"
+      }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Shapeshifter",
+    "tags": [
+      "spirit",
+      "shapeshifter",
+      "canine",
+      "guardian",
+      "dual-nature",
+      "central-america",
+      "nocturnal",
+      "folklore"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "Dual spirit dogs from Central American folklore, manifesting as protective white or malevolent black canines that appear to night travelers. These supernatural beings serve as both guardians and punishers in regional mythology.",
+      "full": "El Cadejo is a legendary supernatural dog from Central American folklore, existing in two opposing forms: the White Cadejo (benevolent protector) and the Black Cadejo (malevolent attacker). Described as large dog or wolf-like creatures with glowing red eyes, shaggy fur, and sometimes chains or hooves, these spirits appear to lone travelers at night. The White Cadejo protects travelers and guides the lost, while the Black Cadejo attacks drunkards and sinners, potentially driving victims to madness. The legend varies across Guatemala, El Salvador, Honduras, and Nicaragua, serving as both a cautionary tale and a source of comfort for nighttime travelers. The phenomenon remains an active part of Central American folklore and cultural tradition."
+    },
+    "etymology": {
+      "origin": "The term 'Cadejo' is of uncertain origin, possibly derived from Spanish 'cadena' (chain) referring to the sound of chains sometimes associated with the creature, or from indigenous Central American languages.",
+      "meaning": "Supernatural spirit dog, guardian/attacker of travelers",
+      "first_use": "Pre-colonial era, oral traditions"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Shapeshifter",
+      "subtype": "Guardian Spirit",
+      "variant": "Central American"
+    },
+    "related_phenomena": [
+      {
+        "id": "black-shuck",
+        "name": "Black Shuck",
+        "relationship": "similar",
+        "description": "English spectral black dog with glowing eyes"
+      },
+      {
+        "id": "cu-sith",
+        "name": "Cù Sìth",
+        "relationship": "similar",
+        "description": "Scottish fairy dog"
+      },
+      {
+        "id": "church-grim",
+        "name": "Church Grim",
+        "relationship": "similar",
+        "description": "European guardian spirit in dog form"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "size": {
+        "description": "Large dog or wolf-sized creature",
+        "confidence": "medium"
+      },
+      "coloration": [
+        "White (benevolent form)",
+        "Black (malevolent form)"
+      ],
+      "features": [
+        {
+          "feature": "Eyes",
+          "description": "Glowing red eyes that cannot be looked at directly without risk of madness",
+          "frequency": "always"
+        },
+        {
+          "feature": "Fur",
+          "description": "Shaggy, thick fur covering entire body",
+          "frequency": "always"
+        },
+        {
+          "feature": "Chains",
+          "description": "Some versions describe chains or rattling sounds",
+          "frequency": "common"
+        },
+        {
+          "feature": "Hooves",
+          "description": "Some regional variants describe hooves instead of paws",
+          "frequency": "occasional"
+        }
+      ],
+      "morphology": "Large canine form resembling dog or wolf. Supernatural appearance with glowing eyes. White or black coloration determines benevolent or malevolent nature."
+    },
+    "abilities": [
+      {
+        "ability": "Protection (White Cadejo)",
+        "description": "White Cadejo protects travelers from harm and guides lost people",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Attack (Black Cadejo)",
+        "description": "Black Cadejo attacks drunkards and sinners",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Inducing madness",
+        "description": "Direct eye contact with either Cadejo can drive person insane",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Supernatural combat",
+        "description": "White and Black Cadejo fight over souls of travelers",
+        "frequency": "occasional",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Silent movement",
+        "description": "Follows travelers silently through the night",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "dual (benevolent/malevolent depending on form)",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "roads and paths at night",
+        "rural areas",
+        "villages",
+        "forests"
+      ],
+      "patterns": [
+        "Appears to lone night travelers",
+        "Follows silently behind or alongside",
+        "White protects virtuous travelers",
+        "Black attacks drunkards and sinners",
+        "Must face it but avoid direct eye contact",
+        "Two forms may fight over single person"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Central America, with variations across multiple countries. Most prevalent in rural and semi-rural areas.",
+      "continents": ["Central America"],
+      "countries": ["Guatemala", "El Salvador", "Honduras", "Nicaragua", "Costa Rica"],
+      "regions": [
+        "Guatemala (widespread)",
+        "El Salvador (widespread)",
+        "Honduras (common)",
+        "Nicaragua (common)",
+        "Rural Central America"
+      ]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-colonial",
+        "circa": true,
+        "source": "Indigenous and Spanish colonial oral traditions"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Pre-colonial to present",
+          "description": "Continuous tradition in Central American folklore"
+        }
+      ],
+      "seasonal_patterns": "Year-round, primarily at night"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "El Cadejo originates from Central American indigenous traditions, possibly mixed with Spanish colonial beliefs about spectral dogs. The dual nature (white/black) reflects moral teachings about behavior and consequences.",
+      "earliest_accounts": "Pre-colonial indigenous oral traditions, later documented during Spanish colonial period.",
+      "folklore_connections": "Connected to worldwide spectral dog mythology including European Black Dogs, British Black Shuck, and other guardian/omen spirit animals."
+    },
+    "timeline": [
+      {
+        "date": "Pre-colonial",
+        "event": "Indigenous oral traditions",
+        "significance": "Original traditions of spirit dogs in Central American cultures",
+        "source": "Oral tradition"
+      },
+      {
+        "date": "1500s",
+        "event": "Spanish colonial documentation",
+        "significance": "Early Spanish colonial records mention local beliefs in spirit dogs",
+        "source": "Colonial records"
+      },
+      {
+        "date": "1900s-present",
+        "event": "Modern folklore documentation",
+        "significance": "Anthropologists and folklorists document regional variations",
+        "source": "Academic studies"
+      }
+    ],
+    "modern_era": "El Cadejo remains an active part of Central American folklore, used to warn about dangers of traveling alone at night and to teach children about moral behavior. The legend is widely known across the region and continues to be passed down through generations."
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0,
+      "date_range": {
+        "earliest": "Pre-colonial",
+        "latest": "Present"
+      }
+    },
+    "notable": [],
+    "database_path": null
+  },
+
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+
+  "theories": {
+    "folkloric": [
+      {
+        "name": "Moral teaching device",
+        "description": "Legend serves to teach moral behavior and warn against drunkenness and sin",
+        "proponents": ["Central American folklorists"],
+        "evidence_cited": ["Dual nature reflecting good/evil behavior", "Focus on punishing drunkards"]
+      },
+      {
+        "name": "Night safety warning",
+        "description": "Story used to warn people about dangers of traveling alone at night",
+        "proponents": ["Cultural anthropologists"],
+        "evidence_cited": ["Focus on nighttime encounters", "Protective aspect of White Cadejo"]
+      }
+    ],
+    "syncretic": [
+      {
+        "name": "Indigenous-Spanish synthesis",
+        "description": "Combination of indigenous Central American spirit beliefs with Spanish colonial folklore of spectral dogs",
+        "proponents": ["Researchers of colonial folklore"],
+        "evidence_cited": ["Similarities to European Black Dog legends", "Pre-existing indigenous traditions"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Guatemalan Cadejo legends",
+        "Salvadoran folklore traditions",
+        "Honduran oral histories",
+        "Nicaraguan folk tales"
+      ],
+      "stories": [
+        "Stories of travelers saved by White Cadejo",
+        "Tales of drunkards attacked by Black Cadejo",
+        "Accounts of battles between White and Black Cadejos"
+      ],
+      "beliefs": "Widespread belief across Central America. Many people consider Cadejos real spiritual entities. Used to enforce social norms and protect travelers."
+    },
+    "indigenous": {
+      "cultures": [
+        "Maya descendants",
+        "Lenca",
+        "Pipil",
+        "Various Central American indigenous groups"
+      ],
+      "significance": "Part of broader Central American spiritual worldview involving protective and punishing spirits. Reflects indigenous and colonial belief systems.",
+      "sensitivity_note": "El Cadejo is an important part of Central American cultural identity and should be approached with respect for living traditions.",
+      "respect_guidelines": "Recognize this as an active cultural tradition, not merely historical folklore. Avoid dismissive or mocking attitudes."
+    },
+    "popular_culture": {
+      "literature": [
+        "Central American folklore collections",
+        "Children's books teaching the legend",
+        "Regional literature and poetry"
+      ],
+      "film_tv": [
+        "Local Central American films",
+        "Educational programs",
+        "Cultural documentaries"
+      ],
+      "other": [
+        "Used in parenting to teach child safety",
+        "Referenced in Central American music",
+        "Tourist cultural education"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Various Central American folklorists",
+        "affiliation": "Regional universities",
+        "contribution": "Documentation of regional variations",
+        "period": "1900s-present"
+      }
+    ],
+    "organizations": [],
+    "ongoing_studies": "Anthropological documentation of how the legend adapts in modern urban Central American contexts."
+  },
+
+  "sources": [
+    {
+      "id": "ca-folklore",
+      "type": "book",
+      "title": "Central American Folklore Collections",
+      "authors": ["Various"],
+      "publication": "Various regional publishers",
+      "date": "Various"
+    }
+  ]
+}
