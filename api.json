@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/el-cadejo",
     "maintainers": [
       {
@@ -16,72 +16,123 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "el-cadejo",
     "name": "El Cadejo",
-    "aliases": [],
-    "category": "ENTITY_SPIRIT",
-    "subcategory": "Guardian Spirit",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Cadejo blanco", "language": "Spanish", "meaning": "white cadejo (benevolent variant)" },
+      { "name": "Cadejo negro", "language": "Spanish", "meaning": "black cadejo (malevolent variant)" },
+      { "name": "El Cadejos", "region": "Costa Rica" }
     ],
-    "status": "documented",
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Guardian / harming dog spirit",
+    "tags": [
+      "central-america",
+      "dog",
+      "guardian-spirit",
+      "shapeshifter",
+      "nahual",
+      "syncretism",
+      "drunkards",
+      "night"
+    ],
+    "status": "active",
     "description": {
-      "summary": "El Cadejo is a legendary supernatural dog from Central American folklore, existing in two opposing forms: the White Cadejo (benevolent protector) and the Black Cadejo (malevolent attacker).",
-      "full": "El Cadejo is a legendary supernatural dog from Central American folklore, existing in two opposing forms: the White Cadejo (benevolent protector) and the Black Cadejo (malevolent attacker). Described as large dog or wolf-like creatures with glowing red eyes, shaggy fur, and sometimes chains or hooves, these spirits appear to lone travelers at night. The White Cadejo protects travelers and guides the lost, while the Black Cadejo attacks drunkards and sinners, potentially driving victims to madness. The legend varies across Guatemala, El Salvador, Honduras, and Nicaragua, serving as both a cautionary tale and a source of comfort for nighttime travelers. El Cadejo remains an active and widespread element of Central American folklore, used to teach moral behavior and warn about the dangers of traveling alone at night."
+      "summary": "A Central American spirit that takes the form of a large dog, appearing in two opposing variants: a benevolent white cadejo that protects nocturnal travellers and a malevolent black cadejo (sometimes identified with the Devil) that harms them.",
+      "full": "El Cadejo (Spanish, sometimes 'el Cadejos' in Costa Rica) is a supernatural dog of Central American folklore, present across Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica, Panama, and several Mexican states. It appears in two opposing variants: a white cadejo that protects travellers — particularly drunkards — through the night, and a black cadejo (sometimes equated with the Devil) that attempts to harm them. The creature is described as a large, shaggy, dog- or wolf-like animal of cow-like size, with glowing red eyes when aggressive and blue eyes when calm; common features include goat hooves, dragging chains, and an intense goat-like odour. In Costa Rica and Panama only the malevolent (black) form is recognised. Folkloric protection includes religious phrases and crossing oneself, with a regional formula recorded as 'con permiso, compadre Alejo'. The legend is widely understood as a syncretic complex blending Spanish colonial Catholicism with pre-Columbian Mesoamerican beliefs about naguales (animal spiritual doubles), in which the dog occupied a sacred psychopomp role guiding the dead."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Spanish 'cadejo' is recorded in regional dictionaries as a tangle or skein (of hair, fibre); the folkloric figure's name may evoke the matted, shaggy appearance of the creature. The underlying mythological substrate draws on Maya and Nahua nahualism.",
+      "meaning": "Folkloric: the shaggy/tangled dog-like spirit. Lexical: 'tangle' (rope, hair).",
+      "first_use": "Present in 19th-century Central American folklore collections; standardised in 20th-century compilations such as those of Salarrué and Sergio Ramírez."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Guardian Spirit",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Animal spirit / guardian",
+      "subtype": "Supernatural dog",
+      "variant": "Central American (with Mexican extensions)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "black-dog", "name": "Black Dog", "relationship": "similar", "description": "British folkloric large black dog spirit (Black Shuck, Barghest, etc.)" },
+      { "id": "rolling-calf", "name": "Rolling Calf", "relationship": "similar", "description": "Jamaican chained malevolent animal-form duppy" },
+      { "id": "cu-sith", "name": "Cù-Sìth", "relationship": "similar", "description": "Scottish fairy hound" },
+      { "id": "nahual", "name": "Nahual", "relationship": "related", "description": "Mesoamerican animal-double / shapeshifter tradition" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["white (benevolent variant)", "black (malevolent variant)"],
+      "features": [
+        { "feature": "Large, shaggy build", "description": "Substantial dog- or wolf-like body, often described as 'cow-sized', covered in long matted hair", "frequency": "always" },
+        { "feature": "Glowing eyes", "description": "Red eyes when aggressive; blue eyes when calm; sometimes simply described as fiery", "frequency": "common" },
+        { "feature": "Goat hooves", "description": "Hooves rather than dog paws are a common feature, particularly in the black cadejo", "frequency": "common" },
+        { "feature": "Dragging chains", "description": "Black cadejo is often described dragging chains, audible at night", "frequency": "common" },
+        { "feature": "Goat-like odour", "description": "A strong goaty smell precedes or accompanies the apparition", "frequency": "common" }
+      ],
+      "morphology": "Large quadrupedal canid with theriomorphic features (hooves, glowing eyes); regionally variable details."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Nocturnal guardianship (white cadejo)", "description": "Escorts drunk or lost travellers home through the night, deterring robbers and the black cadejo", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Inducing madness (black cadejo)", "description": "Looking the black cadejo in the eye, turning one's back on it, or speaking to it is held to drive the witness mad", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Repulsion by religious symbols", "description": "Crossing oneself, prayer, and stylised regional formulas (e.g. 'con permiso, compadre Alejo') are held to deter the black cadejo", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["country roads", "town outskirts", "footpaths between villages", "graveyards", "bridges"],
+      "patterns": [
+        "Attaches itself to a lone traveller at dusk",
+        "Escorts (white) or harasses (black) the traveller until home or daybreak",
+        "Especially active when the traveller is drunk",
+        "Disappears at dawn or upon entering consecrated ground"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Folkloric range across Central America (Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica, Panama) with extensions into several Mexican states.",
+      "continents": ["North America"],
+      "countries": ["Guatemala", "El Salvador", "Honduras", "Nicaragua", "Costa Rica", "Panama", "Mexico"],
+      "regions": [
+        "Central America",
+        "Mesoamerica",
+        "Highland Maya region",
+        "Pacific lowlands of Central America"
+      ]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "19th century",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Central American folklore compilations"
+      },
+      "peak_activity_periods": [
+        { "period": "19th–20th century", "description": "Period of dense folklore documentation by Central American authors" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Syncretism of Spanish colonial Catholic demonology with pre-Columbian Mesoamerican (especially Maya and Nahua) beliefs about animal spiritual doubles (naguales) and the dog as psychopomp. The pre-Columbian Mesoamerican xoloitzcuintli was held to guide the dead through the underworld.",
+      "earliest_accounts": "The cadejo appears in 19th-century Central American folkloric writing and in 20th-century literary collections.",
+      "folklore_connections": "Connects to the broader 'black dog' folklore complex of the Atlantic world (Black Shuck, Cù-Sìth, Rolling Calf) and to Mesoamerican nahualism."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1933-01-01", "event": "Salvadoran writer Salarrué (Salvador Salazar Arrué) publishes 'Cuentos de barro', helping to canonise cadejo narratives in literary form", "significance": "Influential literary preservation of Salvadoran cadejo folklore", "source": "Salazar Arrué, S. (1933)" },
+      { "date": "1996-01-01", "event": "Sergio Ramírez and other Central American writers continue to anthologise cadejo material in regional collections", "significance": "Ongoing literary engagement with the figure", "source": "Ramírez, S. (1996), 'Cuentos completos'" }
+    ],
+    "modern_era": "El Cadejo remains an active part of Central American folklore, frequently invoked in connection with nighttime travel and alcohol; widely represented in contemporary children's literature, comics, festival imagery, and Central American horror media."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +143,111 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "el-cadejo-evidence-salarrue",
+        "type": "literary collection",
+        "name": "'Cuentos de barro'",
+        "date": "1933",
+        "description": "Foundational literary collection of Salvadoran rural folklore including cadejo narratives.",
+        "status": "unverified",
+        "analysis": "Treated as a literary preservation of folk tradition rather than encounter evidence.",
+        "source": "Salazar Arrué, S. (1933)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Guardian / harmer dual spirit",
+        "description": "The cadejo is a real spiritual presence with two aspects, white and black; the white form is sent by God or saints to protect the soul of a vulnerable traveller, the black form by the Devil or witchcraft to harm him.",
+        "proponents": ["Central American folk-Catholicism"],
+        "evidence_cited": ["Stable dual structure across the region", "Apotropaic invocation of religious formulas"]
+      },
+      {
+        "name": "Nahual / animal-double interpretation",
+        "description": "The cadejo is a specialised case of the Mesoamerican nahual: an animal spiritual double that may protect or harm.",
+        "proponents": ["Maya and Nahua folk practice", "Mesoamerican ethnography"],
+        "evidence_cited": ["Continuity with pre-Columbian dog-psychopomp traditions", "Naming and protective formulas drawn from nahual tradition"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cautionary folklore around night travel and alcohol",
+        "description": "Cadejo narratives function as a memetic warning system around nighttime travel, intoxication, and rural roads; specific encounters can be explained by stray dogs, hallucination, or the social need to caution young travellers.",
+        "proponents": ["Modern Central American folkloristics"],
+        "evidence_cited": ["Concentration of stories on intoxicated solo travellers", "Pedagogic role in family storytelling"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Mesoamerican nahualism",
+        "Spanish-colonial Catholic demonology",
+        "Garifuna and other Caribbean-coast Central American traditions"
+      ],
+      "stories": [
+        "Salvadoran cadejo blanco / cadejo negro narratives",
+        "Honduran and Nicaraguan rural cadejo tales",
+        "Costa Rican 'Cadejos' single-form narrative"
+      ],
+      "beliefs": "Looking the black cadejo in the eye, turning one's back, or speaking to it is held to risk madness; protection is sought through prayer, the sign of the cross, and regional formulas."
+    },
+    "indigenous": {
+      "cultures": ["Maya (especially K'iche', Kaqchikel, Mam)", "Nahua (Pipil)", "Lenca", "Miskito", "Garifuna"],
+      "significance": "The cadejo is one of the clearest examples of nahual-type animal-spirit beliefs surviving syncretically into the colonial and post-colonial Central American period.",
+      "sensitivity_note": "Treat the cadejo as a living folk-religious figure rather than a 'cryptid'; foreground Central American voices and avoid framing the tradition as superstition.",
+      "respect_guidelines": "Cite Central American (especially Salvadoran, Guatemalan, Honduran) authors where possible; avoid commercial use of indigenous-religious framings."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "'Cuentos de barro' — Salarrué (1933)",
+        "'El Cadejo Blanco y el Cadejo Negro' — Carlos Jurado (children's literature)",
+        "'Cuentos completos' — Sergio Ramírez (1996)"
+      ],
+      "film_tv": [
+        "Featured in Central American horror short films and television specials"
+      ],
+      "games": [
+        "Featured as a guide character in Lukas Litwin's 'Mulaka' (2018) and other Latin American indie games drawing on regional folklore"
+      ],
+      "music": [
+        "'El Cadejo' — common subject of Central American folk songs and corridos"
+      ],
+      "other": [
+        "Frequently used in regional anti-violence and harm-reduction campaigns aimed at intoxicated drivers"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Salvador Salazar Arrué (Salarrué)", "affiliation": "Salvadoran writer", "contribution": "Literary preservation of Salvadoran cadejo folklore in 'Cuentos de barro' (1933)", "period": "1920s–1970s" },
+      { "name": "Sergio Ramírez", "affiliation": "Nicaraguan writer", "contribution": "Literary engagement with cadejo and other Central American folkloric figures", "period": "1960s–present" },
+      { "name": "Celso Lara Figueroa", "affiliation": "Universidad de San Carlos de Guatemala (CEFOL)", "contribution": "Academic folklorist of Guatemalan supernatural figures including the cadejo", "period": "1970s–2010s" }
+    ],
+    "organizations": [
+      { "name": "Centro de Estudios Folklóricos (CEFOL), Universidad de San Carlos de Guatemala", "url": "https://cefol.usac.edu.gt", "focus": "Academic folklore studies of Guatemala and the wider region" },
+      { "name": "Casa de las Américas", "url": "https://www.casadelasamericas.org", "focus": "Pan-Latin American cultural and literary scholarship" }
+    ],
+    "ongoing_studies": "Continuing folklore documentation in Central American universities and through regional cultural ministries; the cadejo is regularly featured in ethnographic and literary collections."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "salarrue-1933", "type": "book", "title": "Cuentos de barro", "authors": ["Salvador Salazar Arrué (Salarrué)"], "publication": "El Salvador", "date": "1933" },
+    { "id": "ramirez-1996", "type": "book", "title": "Cuentos completos", "authors": ["Sergio Ramírez"], "publication": "Alfaguara", "date": "1996" },
+    { "id": "lara-figueroa-1990", "type": "book", "title": "Por los viejos barrios de la Ciudad de Guatemala", "authors": ["Celso Lara Figueroa"], "publication": "Editorial Universitaria, USAC", "date": "1990" },
+    { "id": "wikipedia-cadejo", "type": "website", "title": "Cadejo", "url": "https://en.wikipedia.org/wiki/Cadejo", "accessed": "2026-05-07" }
+  ]
 }
